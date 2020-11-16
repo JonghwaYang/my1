@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../font/NotoSansKR-Regular.woff2') format('woff2'),
+        url('../font/NotoSansKR-Regular.woff') format('woff'),
+        url('../font/NotoSansKR-Regular.otf') format('opentype');
+ }
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url('../font/NotoSansKR-Medium.woff2') format('woff2'),
+        url('../font/NotoSansKR-Medium.woff') format('woff'),
+        url('../font/NotoSansKR-Medium.otf') format('opentype');
+ }
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: url('../font/NotoSansKR-Bold.woff2') format('woff2'),
+        url('../font/NotoSansKR-Bold.woff') format('woff'),
+        url('../font/NotoSansKR-Bold.otf') format('opentype');
+ }
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,select,textarea,p,blockquote,th,td{margin:0;padding:0;font-family: 'Noto Sans KR','Apple SD Gothic Neo', sans-serif;color:#333;font-size:14px;box-sizing: border-box;}
+
+a, a:link, a:visited, a:hover, a:active {color:inherit;text-decoration: none;display:inline-block;}
+
+input[type="text"]{border:none;}
+
+button{border:none;background:none;font-weight:bold;cursor:pointer;}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+fieldset,img{border:0;vertical-align:middle;}
+
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+
+del,ins{text-decoration:none;}
+
+li{list-style:none;}
+
+caption,th{text-align:left;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+q:before,q:after{content:'';}
+
+abbr,acronym{border:0;font-variant:normal;}
+
+sup{vertical-align:baseline;}
+
+sub{vertical-align:baseline;}
+
+legend{color:#000;}
+
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit; color: inherit;vertical-align: middle;}
+
+input,button,select{font-size:100%;}
+
+textarea{width:100%;resize:none;font-size:14px;word-break: break-all;border: 1px solid #dcdcdc;color: #555;}
+
+caption{font-size: 0px;line-height:0px;width:0px;height:0px;overflow:hidden;}
+
+.clearfix:after{display:block; content:""; clear:both;}
+.cl_both{clear:both;}
+
+.fL{float:left !important;}
+.fR{float:right;}
+.align_l{text-align:left !important;}
+.align_r{text-align:right !important;}
+.align_c{text-align:center !important;}
+
+.m0{margin:0 !important;}
+.mt5{margin-top:5px !important;}
+.mt10{margin-top:10px !important;}
+.mt15{margin-top:15px !important;}
+.mt20{margin-top:20px !important;}
+.mt25{margin-top:25px !important;}
+
+.mb5{margin-bottom:5px !important;}
+.mb10{margin-bottom:10px !important;}
+.mb15{margin-bottom:15px !important;}
+.mb20{margin-bottom:20px !important;}
+.mb25{margin-bottom:25px !important;}
+
+.mr5{margin-right:5px !important;}
+.mr10{margin-right:10px !important;}
+.mr15{margin-right:15px !important;}
+.mr20{margin-right:20px !important;}
+.mr25{margin-right:25px !important;}
+
+.ml5{margin-left:5px !important;}
+.ml10{margin-left:10px !important;}
+.ml15{margin-left:15px !important;}
+.ml20{margin-left:20px !important;}
+.ml25{margin-left:25px !important;}
+
+
